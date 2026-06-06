@@ -46,10 +46,10 @@ ini_set('display_errors', 1);
     </div>
 
     <!-- PHP --> 
-    <div class="mensaje <?php  ?>">
+    <div class="mensaje <?php echo "$clase_mensaje"  ?>">
         <h3>Resultado de la inserción:</h3>
         <!-- PHP --> 
-        <p><?php  ?></p>
+        <p><?php echo "$mensaje"  ?></p>
         <br>
         <a href="crear.php" style="color: #000; font-weight:bold;">Añadir otro set</a> | 
         <a href="index.html" style="color: #000; font-weight:bold;">Ir al buscador</a>

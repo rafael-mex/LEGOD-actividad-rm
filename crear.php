@@ -58,7 +58,7 @@
                     <?php
                         if (count($lista_temas) > 0){
                             foreach($lista_temas as $tema) {
-                                echo "<option value = '$id_tema'> ". $tema["name"] . "</option>";
+                                echo "<option value='" . $tema["theme_id"] . "'>" . $tema["name"] . "</option>";
                             }
                         }
                     ?>
